@@ -1,0 +1,220 @@
+/*PAGES*/
+.wrapper {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    margin-bottom: 30px;
+}
+.material h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+.material h2 {
+    font-size: 18px;
+    text-align: center;
+    color: yellow;
+    font-style: italic;
+    font-weight: 100;
+    padding: 5px;
+} 
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.wrapper_block_1, .wrapper_block_2 {
+    max-width: 600px;
+}
+.wrapper_block_1 img {
+    width: 100%;
+    max-width: 500px;  
+}    
+.wrapper_block_2 img {
+    width: 100%;
+    max-width: 500px;   
+}
+.content h3 {
+    font-size: 18px;
+    border: none;
+    letter-spacing: 3px;
+}
+.material_image {
+    padding: 5px;
+    text-align: center;    
+}
+.material_pesok_descr {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-indent: 20px;
+    max-width: 450px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.material_block img {
+    width: 100%;
+    max-width: 600px;
+}
+.material_descr {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-indent: 20px;
+    max-width: 600px;
+    margin: 0 auto;    
+}
+.order {
+    max-width: 690px;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+.order h4 {
+    font-size: 18px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    letter-spacing: normal; 
+    padding: 10px;
+    color: yellow;
+    font-weight: 500;
+    text-align: center;
+}
+.order h4:hover {
+    background-color: #000;
+    border-color: red; 
+    cursor: pointer;
+}
+.order span {
+    text-decoration: underline;
+}
+/*PAGE END*/
+/*PAGE_SHEBEN*/
+.characteristic, .fraction {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+.material_block ul {
+    list-style: square;
+}
+.fraction > li > a {
+    color: yellow;
+}
+/*PAGE_SHEBEN END*/
+
+/*MEDIA*/
+@media screen and (min-width: 760px) and (max-width: 980px) {
+    .menu_top {
+        display: none;
+    }
+    .material_descr {
+        font-size: 12px;    
+    }
+    .characteristic, .fraction {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 760px) {
+    header {text-align: center;}
+    .menu_top {
+        display: none;
+    }
+    .material_pesok_descr {
+        font-size: 10px;
+        padding-top: 5px;
+        text-align: left;
+    }
+    
+    .material_descr {
+        font-size: 10px;    
+    }
+    .characteristic, .fraction {
+        font-size: 10px;
+    }
+    .order h4 {
+        font-size: 15px;
+        border: 2px solid yellow;
+        border-radius: 10px;
+        letter-spacing: normal; 
+        padding: 10px;
+        color: yellow;
+        font-weight: 400;
+    }
+    
+}
+@media screen and (min-width: 480px) and (max-width: 640px) {
+    header {
+        height: 100px;
+    }
+    .material h1 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .material h2 {
+        font-size: 12px;
+        font-weight: 100;
+        padding: 2px;
+    } 
+    .content h3 {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+    .material_pesok_descr {
+        font-size: 8px;
+        text-indent: 20px;
+        max-width: 450px;
+        margin-left: 10px;
+        padding-top: 5px;
+        text-align: left;
+    }
+    .material_descr {
+        font-size: 10px;    
+    }
+    .characteristic, .fraction {
+        font-size: 10px;
+    }
+    .order h4 {
+        font-size: 12px;
+        letter-spacing: normal; 
+        padding: 10px;
+        font-weight: 400;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    header {
+        height: 75px;
+    }
+    .material h1 {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .material h2 {
+        font-size: 8px;
+        font-weight: 100;        
+    }
+    .content h3 {
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+    .material_pesok_descr {
+        font-size: 6px;
+        text-indent: 10px;
+        max-width: 450px;
+        margin-left: 5px;
+        padding-top: 2px;
+        text-align: left;
+    }
+    .material_descr {
+        font-size: 10px;    
+    }
+    .characteristic, .fraction {
+        font-size: 10px;
+    }
+    .order h4 {
+        font-size: 8px;
+        letter-spacing: normal; 
+        padding: 10px;
+        font-weight: 300;
+    }
+    
+}
+
+
